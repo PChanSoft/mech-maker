@@ -1,4 +1,3 @@
-# Mech-Maker
 ## Introduction
 This is a simple application that will allow users to create new components to assemble their mech.
 There will be text boxes that allows users to input an name and value for each part.
