@@ -2,10 +2,12 @@ import React, {useEffect,useState} from 'react';
 import axios from 'axios';
 import '../index.css'
 function Mechs() {
+// const mechURL='https://mech-maker.herokuapp.com/mechs'
+const mechURL='http://localhost:8080/mechs'
   const [mechs,setMechs] = useState(null);
   async function getMech(){
     try{
-      const res = await axios.get('http://localhost:8080/mechs');
+      const res = await axios.get(mechURL);
       setMechs(res.data);
     }catch(e){
       console.error(e,e.message);
@@ -29,7 +31,7 @@ function Mechs() {
 
   async function createMech(){
     try{
-      const res = await axios.post('http://localhost:8080/mechs', form);
+      const res = await axios.post(mechURL, form);
       setMechs([...mechs, res.data]);
     }catch(e){
       console.error(e,e.messaage);
@@ -50,7 +52,7 @@ function Mechs() {
   async function handleEditSubmit(e){
     e.preventDefault();
     try{
-      const res = await axios.patch('http://localhost:8080/mechs', selectedMech);
+      const res = await axios.patch(mechURL, selectedMech);
       console.log(res.data);
       getMech();
     }catch(e) {
@@ -59,7 +61,7 @@ function Mechs() {
   }
   async function deleteMech(mechId){
     try{
-      const res = await axios.delete('http://localhost:8080/mechs/'+mechId);
+      const res = await axios.delete(mechURL+'/'+mechId);
       getMech();
     }catch(e){
       console.error(e,e.message);
@@ -133,7 +135,7 @@ function Mech({ mech, selectMech, deleteMech}){
         <li>{mech.headName}</li>
         <li>{mech.torsoName}</li>
         <li>{mech.armsName}</li>
-        <li>{mech.torsoName}</li>
+        <li>{mech.legsName}</li>
       </ul>
       <button onClick={() => selectMech(mech)} >Modify Mech</button>
       <button onClick={() => deleteMech(mech.id)}>Remove Mech</button>
