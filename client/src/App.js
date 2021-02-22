@@ -1,10 +1,13 @@
-import React, {useEffect,useState} from 'react';
-import axios from 'axios';
-import './index.css'
+import React, { useEffect, useState } from 'react';
+import Mechs from './components/Mechs';
+import '../src/App.css';
+
 function App() {
   return (
-    <div>
-      Hello there.
+    <div className="App">
+      <header className="App-header">
+        <Mechs />
+      </header>
     </div>
   );
 }
