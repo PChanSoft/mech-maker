@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mech-maker/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/mech-maker/static/js/main.5253c398.chunk.js",
+    "main.js.map": "/mech-maker/static/js/main.5253c398.chunk.js.map",
+    "runtime-main.js": "/mech-maker/static/js/runtime-main.b8c76cd1.js",
+    "runtime-main.js.map": "/mech-maker/static/js/runtime-main.b8c76cd1.js.map",
+    "static/js/2.115f1fa3.chunk.js": "/mech-maker/static/js/2.115f1fa3.chunk.js",
+    "static/js/2.115f1fa3.chunk.js.map": "/mech-maker/static/js/2.115f1fa3.chunk.js.map",
+    "static/js/3.f875bda2.chunk.js": "/mech-maker/static/js/3.f875bda2.chunk.js",
+    "static/js/3.f875bda2.chunk.js.map": "/mech-maker/static/js/3.f875bda2.chunk.js.map",
+    "index.html": "/mech-maker/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/mech-maker/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.115f1fa3.chunk.js.LICENSE.txt": "/mech-maker/static/js/2.115f1fa3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8c76cd1.js",
+    "static/js/2.115f1fa3.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.5253c398.chunk.js"
+  ]
+}
