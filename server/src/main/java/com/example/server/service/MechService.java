@@ -7,5 +7,5 @@ public interface MechService {
     Mech getMechById(Long id);
     Mech createMech(Mech mech);
     Mech updateMech(Mech mech);
-    HttpStatus deleteStudent(Long id);
+    HttpStatus deleteMech(Long id);
 }

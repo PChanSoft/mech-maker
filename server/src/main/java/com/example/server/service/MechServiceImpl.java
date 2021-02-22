@@ -32,7 +32,7 @@ public class MechServiceImpl implements MechService{
     }
 
     @Override
-    public HttpStatus deleteStudent(Long id) {
+    public HttpStatus deleteMech(Long id) {
         mechRepository.deleteById(id);
         return HttpStatus.OK;
     }
