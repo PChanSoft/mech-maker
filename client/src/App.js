@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Mechs from './components/Mechs';
-import '../src/App.css';
+import '../src/index.css';
 
 function App() {
   return (
