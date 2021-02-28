@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/mech-maker/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/mech-maker/static/js/main.5253c398.chunk.js",
-    "main.js.map": "/mech-maker/static/js/main.5253c398.chunk.js.map",
-    "runtime-main.js": "/mech-maker/static/js/runtime-main.b8c76cd1.js",
-    "runtime-main.js.map": "/mech-maker/static/js/runtime-main.b8c76cd1.js.map",
-    "static/js/2.115f1fa3.chunk.js": "/mech-maker/static/js/2.115f1fa3.chunk.js",
-    "static/js/2.115f1fa3.chunk.js.map": "/mech-maker/static/js/2.115f1fa3.chunk.js.map",
-    "static/js/3.f875bda2.chunk.js": "/mech-maker/static/js/3.f875bda2.chunk.js",
-    "static/js/3.f875bda2.chunk.js.map": "/mech-maker/static/js/3.f875bda2.chunk.js.map",
+    "main.css": "/mech-maker/static/css/main.1862591e.chunk.css",
+    "main.js": "/mech-maker/static/js/main.9fc05e59.chunk.js",
+    "main.js.map": "/mech-maker/static/js/main.9fc05e59.chunk.js.map",
+    "runtime-main.js": "/mech-maker/static/js/runtime-main.56f16c4e.js",
+    "runtime-main.js.map": "/mech-maker/static/js/runtime-main.56f16c4e.js.map",
+    "static/js/2.4d13425c.chunk.js": "/mech-maker/static/js/2.4d13425c.chunk.js",
+    "static/js/2.4d13425c.chunk.js.map": "/mech-maker/static/js/2.4d13425c.chunk.js.map",
+    "static/js/3.3f7c8efa.chunk.js": "/mech-maker/static/js/3.3f7c8efa.chunk.js",
+    "static/js/3.3f7c8efa.chunk.js.map": "/mech-maker/static/js/3.3f7c8efa.chunk.js.map",
     "index.html": "/mech-maker/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/mech-maker/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.115f1fa3.chunk.js.LICENSE.txt": "/mech-maker/static/js/2.115f1fa3.chunk.js.LICENSE.txt"
+    "static/css/main.1862591e.chunk.css.map": "/mech-maker/static/css/main.1862591e.chunk.css.map",
+    "static/js/2.4d13425c.chunk.js.LICENSE.txt": "/mech-maker/static/js/2.4d13425c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mech-maker/static/media/background.fb462136.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8c76cd1.js",
-    "static/js/2.115f1fa3.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.5253c398.chunk.js"
+    "static/js/runtime-main.56f16c4e.js",
+    "static/js/2.4d13425c.chunk.js",
+    "static/css/main.1862591e.chunk.css",
+    "static/js/main.9fc05e59.chunk.js"
   ]
 }
